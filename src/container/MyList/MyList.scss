@@ -1,0 +1,60 @@
+.wishlist{
+    margin:75px 25px;
+    .wishlistTitle{
+        font-size: 1.3rem;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 20px;
+    }
+    .wishlistcontainer{
+        display: flex;
+        flex-wrap: wrap;
+        .list{
+            margin: 10px 5px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid white;
+            border-radius: 6px;
+            box-shadow: 1px 1px 10px #726f6f;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            .listimg{
+                img{    width: 250px;
+                    height: 175px;
+                    object-fit: cover;
+                    object-position: center;
+                padding: 10px;}
+            }
+            .listcontent{
+.ItemTitle{
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    max-width: 250px;
+    word-break: break-word;
+    font-size: 1.3rem;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+}
+.ItemBtn{
+    button{
+        width: 75%;
+        padding: 3px;
+        margin: 7px;
+        background: #ff4040;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        &:hover{
+            background:red;
+        }
+    }
+}
+            }
+        }
+    }
+}

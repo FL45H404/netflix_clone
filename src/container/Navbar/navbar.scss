@@ -1,0 +1,61 @@
+.nav_black{
+ background-color: black;
+}
+.Navbar{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    width:100%;
+    min-height: 50px;
+    z-index:99999;
+   
+    .nav{
+        display: flex;
+    }
+    .logo{
+        margin-top: 8px;
+        margin-left: 35px;
+        width:100px;
+        height:30px;
+        img{
+            width:110px;
+            height:50px;
+            object-fit: cover;
+        }
+
+    }
+    .loginbtn{
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .menus{
+        flex:1;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+        .leftmenu{
+            ul{
+                display: flex;
+            }
+        }
+        .rtmenu{
+            margin-right: 35px;
+            ul{
+                display: flex;
+            }
+        }
+    }
+}
+ul li{
+    padding: 0 5px;
+    list-style: none;
+    margin:5px;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
